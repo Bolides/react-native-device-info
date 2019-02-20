@@ -477,7 +477,7 @@
 			};
 			name = Local;
 		};
-		FDECFC9A221B656500EA1E33 /* TestRelease */ = {
+		FDECFC9A221B656500EA1E33 /* BetaRelease */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -529,9 +529,9 @@
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
-			name = TestRelease;
+			name = BetaRelease;
 		};
-		FDECFC9B221B656500EA1E33 /* TestRelease */ = {
+		FDECFC9B221B656500EA1E33 /* BetaRelease */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -539,9 +539,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
-			name = TestRelease;
+			name = BetaRelease;
 		};
-		FDECFC9C221B656500EA1E33 /* TestRelease */ = {
+		FDECFC9C221B656500EA1E33 /* BetaRelease */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -566,7 +566,7 @@
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
-			name = TestRelease;
+			name = BetaRelease;
 		};
 /* End XCBuildConfiguration section */
 
@@ -577,7 +577,7 @@
 				DA5891DF1BA9A9FC002B4DB2 /* Debug */,
 				FD84BA6C2209CCD5000B86BC /* Local */,
 				DA5891E01BA9A9FC002B4DB2 /* Release */,
-				FDECFC9A221B656500EA1E33 /* TestRelease */,
+				FDECFC9A221B656500EA1E33 /* BetaRelease */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -588,7 +588,7 @@
 				DA5891E21BA9A9FC002B4DB2 /* Debug */,
 				FD84BA6D2209CCD5000B86BC /* Local */,
 				DA5891E31BA9A9FC002B4DB2 /* Release */,
-				FDECFC9B221B656500EA1E33 /* TestRelease */,
+				FDECFC9B221B656500EA1E33 /* BetaRelease */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -599,7 +599,7 @@
 				E72EC1461F7ABB5A0001BC90 /* Debug */,
 				FD84BA6E2209CCD5000B86BC /* Local */,
 				E72EC1471F7ABB5A0001BC90 /* Release */,
-				FDECFC9C221B656500EA1E33 /* TestRelease */,
+				FDECFC9C221B656500EA1E33 /* BetaRelease */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
