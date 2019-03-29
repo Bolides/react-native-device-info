@@ -1,16 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.learnium.RNDeviceInfo">
+    package="com.learnium.RNDeviceInfo">
 
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.READ_SMS" />
-    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
-          
     <application>
         <receiver
             android:name="com.learnium.RNDeviceInfo.RNDeviceReceiver"
             android:enabled="true"
             android:exported="true"
-        >
+            >
             <intent-filter>
                 <action android:name="com.android.vending.INSTALL_REFERRER" />
             </intent-filter>
@@ -18,3 +14,4 @@
     </application>
 
 </manifest>
+
